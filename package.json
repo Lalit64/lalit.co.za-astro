@@ -14,6 +14,7 @@
     "autoprefixer": "^10.4.2",
     "postcss": "^8.4.6",
     "svelte": "^3.46.4",
+    "svelte-reveal": "^0.4.0",
     "tailwindcss": "^3.0.23"
   },
   "dependencies": {

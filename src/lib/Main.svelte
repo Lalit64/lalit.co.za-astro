@@ -2,25 +2,147 @@
     import Particles from 'svelte-particles';
 
     let particlesConfig = {
-        fps_limit: 60,
-        interactivity: {
-            detectsOn: "canvas",
-            events: {
-                onClick: {enable: true, mode: "push"},
-                onHover: {enable: true, mode: "repulse"},
-                resize: true
-            },
-        },
         particles: {
-            color: {value: "#3D8FF6"},
-            links: {color: "#2D70C2", enable: true, opacity: 1, width: 1.5},
-            move: {
-                enable: true,
-                outMode: "out",
-                speed: 2,
+            number: {
+                value: 60,
             },
-            number: { value: 50},
+            size: {
+                value: 3,
+            },
+            color: {
+                value: "#3D8FF6",
+            },
+            links: {
+                color:"#3D8FF6",
+                distance:150,
+                enable:true,
+                opacity:0.4,
+                width:1
+            },
+            move:
+                {
+                    enable: true,
+                    random: true,
+                    speed: 6,
+                }
         },
+        interactivity: {
+            events: {
+                onhover: {
+                    enable: true,
+                    mode: 'repulse',
+                },
+            },
+        },
+    }
+
+    let something = {
+        "fps_limit":
+            60, "interactivity":
+            {
+                "detectsOn":
+                    "canvas", "events":
+                    {
+                        "onClick":
+                            {
+                                "enable":
+                                    true, "mode":
+                                    "push"
+                            }
+                        ,
+                        "onHover":
+                            {
+                                "enable":
+                                    true, "mode":
+                                    "repulse"
+                            }
+                        ,
+                        "resize":
+                            true
+                    }
+                ,
+                "modes":
+                    {
+                        "push":
+                            {
+                                "particles_nb":
+                                    4
+                            }
+                        ,
+                        "repulse":
+                            {
+                                "distance":
+                                    200, "duration":
+                                    0.4
+                            }
+                    }
+            }
+        ,
+        "particles":
+            {
+                "color":
+                    {
+                        "value":
+                            "#ffffff"
+                    }
+                ,
+                "links":
+                    {
+                        "color":
+                            "#ffffff", "distance":
+                            150, "enable":
+                            true, "opacity":
+                            0.4, "width":
+                            1
+                    }
+                ,
+                "move":
+                    {
+                        "bounce":
+                            false, "direction":
+                            "none", "enable":
+                            true, "outMode":
+                            "out", "random":
+                            false, "speed":
+                            2, "straight":
+                            false
+                    }
+                ,
+                "number":
+                    {
+                        "density":
+                            {
+                                "enable":
+                                    true, "area":
+                                    800
+                            }
+                        ,
+                        "value":
+                            80
+                    }
+                ,
+                "opacity":
+                    {
+                        "value":
+                            0.5
+                    }
+                ,
+                "shape":
+                    {
+                        "type":
+                            "circle"
+                    }
+                ,
+                "size":
+                    {
+                        "random":
+                            true, "value":
+                            5
+                    }
+            }
+        ,
+        "detectRetina":
+            true
     }
 </script>
 <div class=''>
