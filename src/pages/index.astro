@@ -25,11 +25,11 @@ let title = 'Lalit Yalamanchili';
 </head>
 <body>
     <main class="flex items-center justify-center flex-col z-50 w-full">
-        <Navbar/>
-        <Main/>
-        <Contact/>
-        <Work/>
-        <Footer/>
+        <Navbar client:load/>
+        <Main client:load/>
+        <Contact client:visible/>
+        <Work client:visible/>
+        <Footer />
     </main>
     //
 </body>
