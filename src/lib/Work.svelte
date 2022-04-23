@@ -19,7 +19,7 @@
 	<p class='text-center mx-auto text-gray-500 text-lg mb-14'>Some of the projects I worked on</p>
 	<div class='max-w-7xl px-4 mx-auto flex flex-col lg:flex-row space-y-5 lg:space-y-0 lg:space-x-5 justify-between '>
 		<a href='https://eduspace-gxp.vercel.app/' target='_blank' rel='external'
-			 class='bg-accent bg-opacity-20 hover:bg-opacity-40 max-w-full transition duration-300 rounded-2xl p-6 lg:p-14 pb-8 mx-auto group '¡¡¡™™™¡¡¡
+			 class='bg-accent bg-opacity-20 hover:bg-opacity-40 max-w-full transition duration-300 rounded-2xl p-6 lg:p-14 pb-8 mx-auto group '
 			 style='perspective: 600px;'>
 			<div
 				bind:this={card}

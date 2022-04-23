@@ -1,5 +1,5 @@
 <script>
-	import { init, sendForm } from 'emailjs-com';
+	import { init, sendForm } from '@emailjs/browser';
 
 	init('user_dYJ3Bc9nYPV7C1DVJ0sfO');
 
@@ -60,7 +60,7 @@
 										class='resize-none h-24 bg-accent bg-opacity-10 rounded border-0 focus:ring-2 transition duration-150 p-2 ring-accent focus:ring-2 focus:outline-none'></textarea>
 				</div>
 				<button type='submit'
-								class='border-2 border-accent rounded py-2 active:scale-90 transition duration-300 text-sm md:text-base px-4 hover:bg-accent hover:text-white'>
+								class='hover:-translate-y-1 border-2 border-accent rounded py-2 active:scale-90 transition duration-300 text-sm md:text-base px-4 hover:bg-accent hover:text-white'>
 					Get in touch
 				</button>
 				<p class='text-green-600 absolute'>

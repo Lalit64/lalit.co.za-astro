@@ -9,19 +9,20 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/renderer-svelte": "^0.4.0",
-    "astro": "^0.23.0",
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.6",
-    "svelte": "^3.46.4",
-    "svelte-reveal": "^0.4.0",
-    "tailwindcss": "^3.0.23"
+    "@astrojs/svelte": "latest",
+    "@astrojs/tailwind": "^0.2.0",
+    "astro": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "svelte": "latest",
+    "svelte-reveal": "latest",
+    "tailwindcss": "latest"
   },
   "dependencies": {
-    "@tailwindcss/forms": "^0.4.0",
-    "emailjs-com": "^3.2.0",
-    "svelte-particles": "^1.41.4",
-    "svelte-scrollto": "^0.2.0",
-    "vanilla-tilt": "^1.7.2"
+    "@emailjs/browser": "latest",
+    "@tailwindcss/forms": "latest",
+    "svelte-particles": "latest",
+    "svelte-scrollto": "latest",
+    "vanilla-tilt": "latest"
   }
 }

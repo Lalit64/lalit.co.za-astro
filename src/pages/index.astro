@@ -1,5 +1,9 @@
 ---
-import Loading from "../lib/Loading.svelte"
+import Navbar from "../lib/Navbar.svelte"
+import Main from "../lib/Main.svelte"
+import Contact from "../lib/Contact.svelte"
+import Work from "../lib/Work.svelte"
+import Footer from "../lib/Footer.svelte"
 
 let title = 'Lalit Yalamanchili';
 ---
@@ -9,12 +13,24 @@ let title = 'Lalit Yalamanchili';
 	<meta name="viewport" content="width=device-width">
 	<title>{title}</title>
 	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link
-        rel="stylesheet"
-        href={Astro.resolve("../styles/global.css")}
-    >
+    <style>
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+        img, h1, p, button, form, a {
+            z-index: 50 !important;
+        }               
+    </style>
 </head>
 <body>
-        <Loading client:visible />
+    <main class="flex items-center justify-center flex-col z-50 w-full">
+        <Navbar/>
+        <Main/>
+        <Contact/>
+        <Work/>
+        <Footer/>
+    </main>
+    //
 </body>
 </html>
