@@ -3624,12 +3624,12 @@ svelte-hmr@^0.14.11:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.11.tgz#63d532dc9c2c849ab708592f034765fa2502e568"
   integrity sha512-R9CVfX6DXxW1Kn45Jtmx+yUe+sPhrbYSUp7TkzbW0jI5fVPn6lsNG9NEs5dFg5qRhFNAoVdRw5qQDLALNKhwbQ==
 
-svelte-particles@latest:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/svelte-particles/-/svelte-particles-2.0.6.tgz#b87ec2fd10b867268d454e00e9e67bff63f8104a"
-  integrity sha512-IYSvlSGvYUi6C0XUkNUJiUiqZmv1fgva5fRwk8jDX5sBbPRB2N7l8CZvf4ijAXa1/l0yfvwu0pbO89WX1aww8A==
+svelte-particles@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/svelte-particles/-/svelte-particles-2.1.0.tgz#b28aece98c7e9a481bdeec15fb2a328228cb5fff"
+  integrity sha512-vSaljtpt5ozd76of4yJkhUakXcW2B4Ca8+ur1ukkxH//JDL3tU4QI2k2n/fM4J1tmZ9MxXAFVU4+3QhPMWPhMw==
   dependencies:
-    tsparticles-engine "^2.0.6"
+    tsparticles-engine "^2.1.0"
 
 svelte-preprocess@^4.10.5:
   version "4.10.6"
@@ -3746,10 +3746,10 @@ tsm@^2.1.4, tsm@^2.2.1:
   dependencies:
     esbuild "^0.14.0"
 
-tsparticles-engine@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/tsparticles-engine/-/tsparticles-engine-2.0.6.tgz#27e85d8d014a2d9435ffc9a2c7efd570baf6dc64"
-  integrity sha512-qsAMp68No1ncbFQbyjILrVtS9LeNTtBmxPa91COvHq4iLELReUjVxXTWfLWi0+xczTbdpNPRPx92r0V3xlqeHw==
+tsparticles-engine@^2.1.0:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/tsparticles-engine/-/tsparticles-engine-2.1.3.tgz#d8922cf7811c40e5e9b87b18f9cc86043af8e900"
+  integrity sha512-BmCo534tF5yRQofUczGSfCFrdeMYO6e7FXHv6AdRxL+j9NNPH3zF4HX6k24tbO4kmTH8tGX/+F9mugEQVo9AEg==
 
 type-fest@^0.13.1:
   version "0.13.1"
