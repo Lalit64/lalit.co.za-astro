@@ -21,7 +21,7 @@
   "dependencies": {
     "@emailjs/browser": "latest",
     "@tailwindcss/forms": "0.5.2",
-    "svelte-particles": "latest",
+    "svelte-particles": "2.1.0",
     "svelte-scrollto": "latest",
     "vanilla-tilt": "latest"
   }
